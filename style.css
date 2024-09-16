@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 60px;
+    background-color:#047bd5;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    color: white;
+    padding: 0 30px;
+    font-family: "Playfair Display", serif;
+}
+nav ul li:hover {
+    color: white;
+    padding: 0 30px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+nav ul{
+    height: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    align-items: center;
+}
+nav div img{
+        height: 30px;
+        width: 100px;
+}
+nav div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 10px;
+    
+}
+nav input{
+    display: flex;
+    width: 40vw;
+    height: 30px;
+    border-radius: 4px;
+    
+}
+.search{
+    margin: 10px;
+}
+.container{
+    height: calc(100vh - 60px - 10vh);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    margin: 6px;
+    font-family: "Playfair Display", serif;
+    padding-top: 37px auto;
+}
+.card-item{
+    margin: 6px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+    margin: 0 13px;
+    padding: -3px 20px 0 0;
+    
+}
+.text-center{
+    text-align: center;
+}
+.my-1{
+    margin: 3px 0;
+}
+.my-2{
+    margin: 25px 0;
+}
+main{
+    height: 250vh;
+}
+
+footer{
+    height: 10vh;
+    background-color: #047bd5;
+    color: white;
+    font-family: "Playfair Display", serif;
+    
+}
